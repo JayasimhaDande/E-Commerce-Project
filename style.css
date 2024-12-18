@@ -1,0 +1,442 @@
+
+.navbar {
+    background-color: #212529; /* Dark background color for navbar */
+  }
+  
+  .navbar-brand {
+    color: #f8f9fa; /* Light color for brand name */
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover {
+    color: #adb5bd; /* Subtle hover effect */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa; /* Light color for nav links */
+    margin: 0 10px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #1e77d0; /* Subtle hover effect */
+  }
+  
+  .navbar-toggler {
+    border-color: #adb5bd; /* Light border for toggler */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: none;
+    border: 1px solid #f8f9fa;
+    border-radius: 50%;
+  }
+  
+  .navbar-toggler-icon:before {
+    content: '\\2630'; /* Unicode for hamburger icon */
+    color: #f8f9fa;
+    font-size: 1.2rem;
+  }
+  .search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #adb5bd;
+    border-radius: 5px;
+    background-color: #343a40;
+    display: none;
+    color: #f8f9fa;
+  }
+  
+  .search-results ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #495057;
+  }
+  
+  .search-results li:hover {
+    background-color: #495057;
+    cursor: pointer;
+  }
+
+  /* Navbar styling */
+.navbar {
+    background-color: #212529; /* Dark background color for navbar */
+  }
+  
+  .navbar-brand, .nav-link, .search-icon {
+    color: #f8f9fa; /* Set color to white */
+  }
+  
+  .navbar-brand:hover, .nav-link:hover, .search-icon:hover {
+    color: #adb5bd; /* Hover color */
+  }
+  
+  /* Search results styling */
+  .search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #adb5bd;
+    border-radius: 5px;
+    background-color: #343a40;
+    display: none;
+    color: #f8f9fa;
+  }
+  
+  .search-results ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #495057;
+  }
+  
+  .search-results li:hover {
+    background-color: #495057;
+    cursor: pointer;
+  }
+  #hero-slider {
+    position: relative;
+  }
+  
+  #hero-slider img {
+    max-height: 900px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent black background */
+    padding: 8px;
+    border-radius: 30px;
+  }
+  
+  .carousel-indicators button {
+    background-color: #f8f9fa; /* White indicators */
+    border: none;
+  }
+  
+  .carousel-indicators button.active {
+    background-color: #007bff; /* Active indicator color */
+  }
+  #categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .category-item {
+    position: relative;
+  }
+  
+  .category-img-wrapper {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .category-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+  }
+  
+  .category-img-wrapper .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .category-img-wrapper .icon-link {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .category-img-wrapper:hover .overlay {
+    opacity: 1;
+  }
+  
+  .category-img-wrapper:hover img {
+    transform: scale(1.1);
+  }
+  
+  .category-item h5 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+/* Best Deals Section */
+#best-deals {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* Light background */
+}
+
+#best-deals h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#best-deals .deal-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#best-deals .deal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#best-deals .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#best-deals .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #212529;
+}
+
+#best-deals .card-text {
+  color: #6c757d;
+}
+
+#best-deals .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+#best-deals .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#best-deals .btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+#best-deals .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+
+/* Popular Products Section */
+#popular-products {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+#popular-products h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#popular-products p {
+  color: #6c757d;
+}
+
+#popular-products .product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#popular-products .product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#popular-products .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#popular-products .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #212529;
+}
+
+#popular-products .card-text.text-primary {
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+#popular-products .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+#popular-products .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.newsletter-section {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.newsletter-section h1 {
+  font-weight: 700;
+  color: #333;
+}
+
+.newsletter-section p {
+  color: #555;
+}
+
+.newsletter-section form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.newsletter-section form .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+}
+
+.newsletter-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Future Features Section */
+#future-features {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* Light background */
+}
+
+#future-features h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#future-features .feature-card img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#future-features h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#future-features p {
+  color: #6c757d; /* Muted text color */
+}
+
+  
+  /* Footer Section */
+  #footer {
+    background-color: #212529;
+  }
+  
+  #footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #footer p, #footer a {
+    color: #adb5bd;
+    font-size: 0.9rem;
+  }
+  
+  #footer a:hover {
+    color: #3d91bf;
+  }
+  
+  #footer .social-icons a {
+    font-size: 1.5rem;
+  }
+  
+  #footer .social-icons a:hover {
+    color: #007bff;
+  }
+  html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar toggler styling */
+.navbar-toggler {
+  display: inline-block;
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  position: relative;
+}
+
+/* Lines inside the toggler */
+.navbar-toggler span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #333;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Positioning lines */
+.navbar-toggler span:nth-child(1) {
+  top: 0;
+}
+
+.navbar-toggler span:nth-child(2) {
+  top: 10px;
+}
+
+.navbar-toggler span:nth-child(3) {
+  top: 20px;
+}
+
+/* Active state animations */
+.navbar-toggler.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.navbar-toggler.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
